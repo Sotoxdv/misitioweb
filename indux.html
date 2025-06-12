@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Clases y Cafés</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91c38c4662.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar" aria-label="Navegación principal">
+  <div class="logo">Entre Clases <span>y Cafés</span></div>
+  <ul class="nav-links">
+    <li><a href="#inicio" class="nav-btn active">Inicio</a></li>
+    <li><a href="#carrera" class="nav-btn">Carrera</a></li>
+    <li><a href="#materia" class="nav-btn">Materia</a></li>
+    <li><a href="#galeria" class="nav-btn">Galería</a></li>
+    <li><a href="#video" class="nav-btn">Video</a></li>
+    <li><a href="#enlaces" class="nav-btn">Enlaces</a></li>
+  </ul>
+  <!-- Botón hamburguesa para móviles -->
+  <button id="menu-toggle" aria-label="Abrir menú de navegación">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+    </header>
+    <main>
+        <!-- Inicio -->
+        <section id="inicio" class="hero seccion-animada seccion-activa">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="imagenes/perfil3.jpg" alt="Foto de perfil de César Soto, desarrollador de software" class="perfil-foto">
+                </div>
+                <div class="hero-text">
+                    <h1>Hola, soy César Soto</h1>
+                    <h2>Desarrollador de software y amante del rock.</h2>
+                    <p>
+                        ¡Hola! Mi nombre es César Soto y soy estudiante de Tecnología en Desarrollo de Software en la Universidad del Valle. Esta página fue creada como parte de un proyecto académico, pero también como un espacio personal para compartir mi proceso como estudiante universitario.
+                        <br><br>
+                        Aquí vas a encontrar información sobre mi carrera, reflexiones de la materia Inserción a la Vida Universitaria (IVU), experiencias en clase, y una mirada más personal sobre cómo ha sido adaptarme a este nuevo mundo. También incluí algunos enlaces útiles y toques de diseño que fui aprendiendo en el camino usando Visual Studio Code.
+                        <br><br>
+                        Esta web representa una mezcla entre lo que aprendo, lo que pienso y lo que soy. Así que, siéntete libre de explorar y conocer un poco de este viaje llamado universidad.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/Sotoxdv" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/st_k45/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1ADw6sQvPQ/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="hobbies">
+                        <span title="Música"><i class="fas fa-guitar"></i> Música</span>
+                        <span title="Lectura"><i class="fas fa-book"></i> Lectura</span>
+                        <span title="Café"><i class="fas fa-mug-hot"></i> Café</span>
+                        <span title="Videojuegos"><i class="fas fa-gamepad"></i> Videojuegos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrera -->
+        <section id="carrera" class="carrera seccion-animada oculto">
+            <h2 class="section-title">Tecnología en Desarrollo de Software</h2>
+            <p>
+                La carrera de Tecnología en Desarrollo de Software forma profesionales capaces de analizar problemas y crear soluciones mediante la programación, el diseño de interfaces y el desarrollo de sistemas. A lo largo de la formación, se adquieren habilidades técnicas para diseñar, construir y mantener aplicaciones o plataformas en diversos entornos.
+            </p>
+            <p>
+                Durante el recorrido académico, los estudiantes se preparan para desempeñarse en áreas como el desarrollo de software, donde crean y mantienen sistemas de información; el diseño de interacción humano-computadora, enfocado en mejorar la experiencia del usuario a través de la usabilidad y la interfaz gráfica; y la gestión de infraestructura TIC, donde se encargan de administrar redes, servidores, bases de datos y garantizar la seguridad de los sistemas tecnológicos.
+            </p>
+            <p>
+                Esta carrera ofrece una alta proyección laboral, ya que actualmente muchas organizaciones dependen de soluciones digitales sólidas, seguras y eficientes para operar con éxito en cualquier sector.
+            </p>
+        </section>
+
+        <!-- Materia y clases -->
+        <section id="materia" class="materia seccion-animada oculto">
+            <h2 class="section-title">Materia: Inserción a la Vida Universitaria</h2>
+            <ul class="clases-lista">
+                <li><a href="#clase1" class="clase-btn">Recorrido por el Campus</a></li>
+                <li><a href="#clase2" class="clase-btn">Gestión Emocional y Estrés</a></li>
+                <li><a href="#clase3" class="clase-btn">Normatividad Universitaria</a></li>
+                <li><a href="#clase4" class="clase-btn">Manejo del Tiempo</a></li>
+                <li><a href="#clase5" class="clase-btn">Técnicas de Estudio y Pensamiento Crítico</a></li>
+                <li><a href="#clase6" class="clase-btn">Comunicación y Resolución de Conflictos</a></li>
+            </ul>
+        </section>
+
+        <section id="clase1" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Recorrido por el Campus</h3>
+            <div class="clase1-flex">
+                <div class="clase1-text">
+                    <p>
+                        La clase de “Recorrido por el campus” fue mucho más que una simple caminata por los pasillos de la universidad. Fue una experiencia que me ayudó a conectarme con mi nuevo entorno, conocer sus espacios, y sobre todo, comenzar a sentirme parte de algo más grande. Al principio, todo era nuevo y un poco abrumador, pero recorrer las instalaciones me dio una mejor idea de cómo funciona la universidad y me motivó a aprovechar cada rincón que ofrece, desde las aulas hasta las áreas comunes.
+                    </p>
+                    <p>
+                        Lo más valioso fue darme cuenta de que no estoy solo en este camino; todos estamos aprendiendo a adaptarnos, a encontrar nuestro lugar y a construir nuestro propio recorrido dentro de la vida universitaria. Esta clase me ayudó a ver la universidad no solo como un lugar de estudio, sino como un espacio de crecimiento personal y profesional.
+                    </p>
+                </div>
+                <div class="video-responsive">
+                    <video controls width="640">
+                        <source src="video/video2.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section id="clase2" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Gestión Emocional y Estrés</h3>
+            <p>
+                La clase de gestión emocional y del estrés me hizo detenerme un momento y pensar en algo que muchas veces pasamos por alto: cómo nos sentimos. En medio de tareas, responsabilidades y adaptarse a la universidad, es fácil olvidar que también necesitamos cuidar nuestra salud mental. Esta clase me ayudó a entender que no está mal sentirse agobiado o frustrado a veces, pero lo importante es aprender a reconocerlo y saber cómo manejarlo.
+            </p>
+            <p>
+                Aprendí que las emociones no son enemigas, sino señales que debemos escuchar. Además, descubrí técnicas sencillas pero útiles para manejar el estrés, como la respiración consciente, los descansos activos o simplemente hablar con alguien. Gracias a esta clase, ahora tengo más herramientas para enfrentar los desafíos con una mente más tranquila y enfocada, tanto en la universidad como en la vida en general.
+            </p>
+            <div class="video-responsive">
+                <video controls width="640">
+                    <source src="video/video3.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+        <section id="clase3" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Normatividad Universitaria</h3>
+            <p>
+        Esta clase me abrió los ojos sobre algo que normalmente no tomamos en cuenta hasta que es demasiado tarde: las reglas que rigen nuestra vida como estudiantes. El famoso Acuerdo 009, conocido como “la Biblia univalluna”, es básicamente el manual de supervivencia para todo estudiante de Univalle. Al principio puede parecer un documento largo y complicado, pero entendí que conocerlo me da claridad sobre mis derechos, deberes, y todo lo que debo tener presente para avanzar sin tropiezos en mi carrera.
+    </p>
+    <p>
+        Aprendí que no se trata solo de seguir reglas, sino de entender cómo funciona la universidad como institución, y cómo nosotros, los estudiantes, somos parte activa de ese sistema. Saber qué esperar y qué se espera de mí me hace sentir más seguro y responsable. Además, me di cuenta de que estar bien informado es una de las mejores formas de evitar problemas en el futuro.
+    </p>
+        </section>
+        <section id="clase4" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Manejo del Tiempo</h3>
+            <p>
+        La clase de manejo del tiempo fue como una alarma que me hizo ver lo fácil que es perder el control cuando no organizamos bien nuestras actividades. Muchas veces creemos que el día no alcanza, pero en realidad el problema está en cómo usamos cada hora. En esta clase no solo hablamos sobre la importancia de planificar, sino que también identificamos herramientas y estrategias para hacerlo mejor.
+    </p>
+    <p>
+        Conocimos métodos como la matriz de Eisenhower o la técnica Pomodoro, y además descubrimos aplicaciones súper útiles como Google Calendar, Trello y Notion. Ver estas opciones me hizo entender que tener una buena gestión del tiempo no es solo cuestión de disciplina, sino de encontrar lo que funciona para uno mismo.
+    </p>
+    <p>
+        Gracias a esta clase, empecé a valorar más mi tiempo y a distribuirlo mejor entre estudio, descanso y vida personal. No se trata de hacer más, sino de hacer lo importante en el momento adecuado.
+    </p>
+        </section>
+        <section id="clase5" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Técnicas de Estudio y Pensamiento Crítico</h3>
+            <p>
+        En esta clase entendí que estudiar no es solo leer o memorizar, sino saber cómo hacerlo de forma más estratégica y consciente. Aprendimos que hay diferentes técnicas que se pueden adaptar a nuestro estilo de aprendizaje, como los mapas mentales, resúmenes visuales, fichas de repaso y la técnica Feynman. Además, trabajamos en desarrollar el pensamiento crítico, algo que va más allá de solo aceptar información, se trata de analizarla, cuestionarla y entenderla desde diferentes puntos de vista.
+    </p>
+    <p>
+        Los videos y recursos que vimos nos ayudaron a entender mejor cómo funciona nuestra mente cuando estudiamos y cómo podemos entrenarla para aprender de manera más eficiente. También vimos cómo identificar información relevante, argumentar ideas y tomar decisiones informadas, lo cual no solo es útil para la universidad, sino para la vida en general.
+    </p>
+    <p>
+        Esta clase me hizo reflexionar sobre la importancia de no solo estudiar más, sino estudiar mejor, y de siempre mantener una mente abierta, curiosa y crítica ante cualquier contenido que leamos o escuchemos.
+    </p>
+        </section>
+        <section id="clase6" class="clase seccion-animada oculto">
+            <a href="#materia" class="btn volver-materia">← Volver a Inserción Universitaria</a>
+            <h3 class="section-title">Comunicación y Resolución de Conflictos</h3>
+            <p>
+        Esta clase me ayudó a entender que comunicarse no es solo hablar, sino saber escuchar, expresarse con claridad y sobre todo, hacerlo con respeto. A veces damos por hecho que los demás entienden lo que decimos, pero la realidad es que muchos conflictos surgen por una mala comunicación o por no saber cómo manejar una situación difícil.
+    </p>
+    <p>
+        Aprendí que los conflictos no siempre son algo negativo, muchas veces son una oportunidad para crecer y fortalecer las relaciones, siempre que se manejen bien. Vimos diferentes estilos de comunicación, formas de expresar nuestras ideas sin atacar a los demás, y también cómo mantener la calma cuando las emociones están al límite.
+    </p>
+    <p>
+        Esta clase me enseñó herramientas muy útiles no solo para la universidad, sino para cualquier aspecto de la vida. Saber comunicarse bien y resolver conflictos de forma madura es clave para tener relaciones sanas, ya sea con compañeros, docentes, familia o en el futuro, con colegas de trabajo.
+    </p>
+        </section>
+
+        <!-- Galería de imágenes -->
+        <section id="galeria" class="galeria seccion-animada oculto">
+            <h2 class="section-title">Galería de Imágenes</h2>
+            <div class="galeria-grid">
+                <img src="imagenes/recuerdo3.png" alt="Recuerdo 3" loading="lazy">
+                <img src="imagenes/recuerdo2.png" alt="Recuerdo 2" loading="lazy">
+                <img src="imagenes/recuerdo4.png" alt="Recuerdo 4" loading="lazy">
+                <img src="imagenes/recuerdo10.png" alt="Recuerdo 10" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Video -->
+        <section id="video" class="video seccion-animada oculto">
+            <h3 class="section-title">Recuerdos</h3>
+            <div class="video-responsive">
+                <!-- Izquierda: segundo video, más pequeño -->
+                <div class="video-left">
+                    <video controls>
+                        <source src="video/recuerdovid2.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+                <!-- Derecha: los otros dos videos, uno debajo del otro -->
+                <div class="video-right">
+                    <video controls>
+                        <source src="video/recuerdovid.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                    <video controls>
+                        <source src="video/recuerdovid3.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enlaces -->
+        <section id="enlaces" class="enlaces seccion-animada oculto">
+            <h2 class="section-title">Enlaces de la Universidad</h2>
+            <ul>
+                <li>
+                    <a href="https://yumbo.univalle.edu.co/" target="_blank" rel="noopener">
+                        Página principal de la Universidad del Valle - Sede Yumbo
+                    </a>
+                </li>
+                <li>
+                    <a href="https://eisc.univalle.edu.co/index.php/programas-academicos/tecnologia-en-desarrollo-de-software" target="_blank" rel="noopener">
+                        Tecnología en Desarrollo de Software - Univalle
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/dYSEepXnO1M?si=7fCGl55J1JiIclOf" target="_blank" rel="noopener">
+                        Video: Universidad del Valle Sede Yumbo (YouTube)
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+    <p>&copy; 2025 Entre Clases y Cafés &mdash; Portafolio personal. Hecho con música y mucho café.</p>
+</footer>
+    <script src="main.js"></script>
+    <script>
+document.querySelectorAll('.galeria-grid img').forEach(img => {
+    img.addEventListener('click', function() {
+        const lightbox = document.createElement('div');
+        lightbox.className = 'galeria-lightbox';
+        lightbox.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+        lightbox.onclick = () => lightbox.remove();
+        document.body.appendChild(lightbox);
+    });
+});
+    // Menú hamburguesa: abrir/cerrar
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        menuToggle.classList.toggle('open');
+    });
+
+    // Ocultar menú al hacer clic en un enlace (solo en móvil)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 700 && navLinks.classList.contains('open')) {
+                navLinks.classList.remove('open');
+                menuToggle.classList.remove('open');
+            }
+        });
+    });
+</script>
+</body>
+</html>
